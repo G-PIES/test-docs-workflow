@@ -1,0 +1,10 @@
+name: Deploy GitHub pages from another workflow
+
+on:
+  workflow_call:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo 1
